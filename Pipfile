@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+jupyter = "*"
+pymysql = "*"
+ta-lib = "*"
+matlab = "*"
+matplotlib = "*"
+plotly = "*"
+requests = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
