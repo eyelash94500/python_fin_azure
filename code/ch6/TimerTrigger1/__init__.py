@@ -135,9 +135,11 @@ def main(mytimer: func.TimerRequest) -> None:
     )
 
     if mytimer.past_due:
-        logging.info("start")
-        csv_data = daily_market_info()
-        r = csv_data.get_and_save()
-        logging.info(f"result: {r}")
+        logging.info("過期囉～")
 
-    logging.info("Python timer trigger function ran at %s", utc_timestamp)
+    logging.info("start")
+    csv_data = daily_market_info()
+    r = csv_data.get_and_save()
+    logging.info(f"result: {r}")
+
+    logging.info("Python timer trigger function 執行時間： %s", utc_timestamp)
