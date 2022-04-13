@@ -11,7 +11,7 @@ stock_market = "TW"
 address = f"https://query1.finance.yahoo.com/v8/finance/chart/{stock_code}.{stock_market}?period1={start_time}&period2={end_time}&interval=1d&events=history&=hP2rOschxO0"
 
 # 使用requests 來跟遠端 API server 索取資料
-response = requests.get(address)
+response = requests.get(address, headers={"User-agent": ""})
 
 # 序列化資料回報
 data = json.loads(response.text)
