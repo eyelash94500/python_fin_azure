@@ -15,6 +15,11 @@
 
 ## 勘誤與補充
 
+### Ch2
+
+* 勘誤 p.30：最後一行「print(x) # 答案為：2」，正確為「print(x) # 答案為：6」並非「2」。
+* 勘誤 p.36：在`len()`的範例中，`list1 = [list1, list1, list1, list1]`為錯誤的變數名稱，應該是為`list2`，也就是：`list2 = [list1, list1, list1, list1]`
+
 ### Ch3
 
 * 補充 p.113～p.117 的程式碼補充與勘誤，包含「把歷史資料放入資料庫」（[stock_history.py](ch3/../code/ch3/stock_history.py)）、「每日市場資料放入資料庫」（[get_market_info.py](ch3/../code/ch3/get_market_info.py)）。
