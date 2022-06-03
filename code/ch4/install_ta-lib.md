@@ -2,6 +2,8 @@
 
 與 Mac OS 相同，TA-Lib 無法直接用 `pip` 或是 `pipenv`，如果有安裝`Anaconda`的話，就包含在裡面，但是筆者的做法是需要才要安裝，因此無法直接安裝 TA-Lib。
 
+> 注：此篇對應書本的 p.128~129
+
 ## 直接安裝會失敗
 
 如果直接使用 `pip` 或是 `pipenv`安裝（`pipenv install TA-Lib`），會出現中的錯誤：

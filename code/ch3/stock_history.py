@@ -47,7 +47,7 @@ def convert_date(data_ROC):
 
 # API位置
 stock_symbol = "2330"
-date = "202205"
+date = "20220501"  # 會取得該所屬月份的所有交易日資訊
 address = f"https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date={date}&stockNo={stock_symbol}"
 
 # 取得資料
