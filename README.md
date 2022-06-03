@@ -24,6 +24,10 @@
 
 * 補充 p.113～p.117 的程式碼補充與勘誤，包含「把歷史資料放入資料庫」（[stock_history.py](ch3/../code/ch3/stock_history.py)）、「每日市場資料放入資料庫」（[get_market_info.py](ch3/../code/ch3/get_market_info.py)）。
 
+### Ch4
+
+* 補充 p128 中 Windows 安裝 TA-Lib 的方法：流程寫在[install_ta-lib.md](code/ch4/install_ta-lib.md)
+
 # 聯繫
 
 如果對於本書或是內容有疑問，歡迎在這邊提出，或是用email聯繫：`eyelash.94500@gamil.com`
