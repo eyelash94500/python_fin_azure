@@ -30,7 +30,7 @@
 
 1. 取得 .whl 檔案
 
-首先進入網站：https://github.com/mrjbq7/ta-lib#windows，根據自己的作業系統版本，取得檔案。筆者環境是 Windows 10 64位元，因此下載：
+首先進入網站：https://github.com/mrjbq7/ta-lib#windows ，根據自己的作業系統版本，取得檔案。筆者當下環境是 Windows 10 64位元，並且 Python 版本為 `3.10`，因此下載：
 
 ```
 TA_Lib-0.4.24-cp310-cp310-win_amd64.whl
@@ -38,7 +38,29 @@ TA_Lib-0.4.24-cp310-cp310-win_amd64.whl
 
 ![TA-Lib 列表](pic/talib%20list.png)
 
-2. 安裝 C++ 開發套件
+
+**備註**
+
+如果想要知道在`pipenv`底下的版本，可以在 VS Code 的終端機（TERMINAL）中使用以下語法，畢竟虛擬環境可以用指定的版本安裝：
+```
+pipenv shell
+```
+
+進入 Python 虛擬環境後，接著執行取得 Python 版本的語法：
+```
+python --version
+```
+
+就會出現 Python 版本說明
+
+* Mac 的呈現方式
+![Mac version](pic/Mac%20version.png)
+* Windows 的 PowerShell的呈現方式
+![Windows version](pic/Windows%20version.png)
+
+
+
+1. 安裝 C++ 開發套件
 
 在這邊需要安裝一些開發相關的套件，可以藉由安裝 Visual Studio Community 然後從中選擇「Visual C++」相關的資訊，進行安裝就可以取得套件。
 
