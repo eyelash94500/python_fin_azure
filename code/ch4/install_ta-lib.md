@@ -60,7 +60,7 @@ python --version
 
 
 
-1. 安裝 C++ 開發套件
+2. 安裝 C++ 開發套件
 
 在這邊需要安裝一些開發相關的套件，可以藉由安裝 Visual Studio Community 然後從中選擇「Visual C++」相關的資訊，進行安裝就可以取得套件。
 
